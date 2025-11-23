@@ -26,7 +26,8 @@ Este projeto foi criado com foco em **usabilidade, simplicidade e aprendizado**,
 **Tela principal do aplicativo:**
 
 <img width="805" height="561" alt="Image" src="https://github.com/user-attachments/assets/ad49c1d3-0fe4-4114-9bb3-f285fc3a9af4" />
-    > Exemplo da interface principal mostrando seleção de pasta, entrada de URL e botões de download.
+
+> Exemplo da interface principal mostrando seleção de pasta, entrada de URL e botões de download.
 
 ---
 
