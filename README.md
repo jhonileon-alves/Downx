@@ -84,9 +84,7 @@ DownX/
 ├─ main.py             # Código principal
 ├─ downx.ico           # Ícone do aplicativo
 ├─ requirements.txt    # Dependências do projeto
-├─ README.md           # Documentação
-└─ assets/             # Screenshots do app
-    └─ screenshot.png
+└─ README.md           # Documentação
 ```
 
 ---
