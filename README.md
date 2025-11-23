@@ -4,14 +4,14 @@
 [![License](https://img.shields.io/badge/License-None-lightgrey)]()
 [![GitHub Repo](https://img.shields.io/badge/GitHub-DownX-blue?logo=github)](https://github.com/jhonileon-alves)
 
-**DownX** é um downloader de vídeos do YouTube desenvolvido em **Python** utilizando **CustomTkinter**.  
-Interface moderna em **dark mode**, download em **MP4** na melhor qualidade disponível, seleção de pasta de destino e acompanhamento do status do download em tempo real.
+**DownX** é um downloader de vídeos do YouTube desenvolvido em **Python** com **CustomTkinter**.  
+Oferece interface moderna em **dark mode**, download em **MP4** na melhor qualidade, seleção de pasta de destino e acompanhamento do status de download em tempo real.
 
 Este projeto foi criado com foco em **usabilidade, simplicidade e aprendizado**, ideal para uso pessoal e educacional.
 
 ---
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - 📁 **Seleção de pasta de destino**: escolha onde salvar os vídeos  
 - 🎬 **Download de vídeos do YouTube**: melhor qualidade em MP4  
@@ -21,88 +21,121 @@ Este projeto foi criado com foco em **usabilidade, simplicidade e aprendizado**,
 
 ---
 
-## ⚙️ Pré-requisitos
+## Demonstração
+
+**Tela principal do aplicativo:**
+
+![Screenshot do DownX](./assets/screenshot.png)  
+> Exemplo da interface principal mostrando seleção de pasta, entrada de URL e botões de download.
+
+---
+
+## Pré-requisitos
 
 - Python 3.10 ou superior  
-- Instalar as dependências:
+- Bibliotecas necessárias, listadas em `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
-🛠️ Instalação
-Clone o repositório:
+````
 
-bash
-Copy code
+---
+
+## Instalação
+
+1. Clone o repositório:
+
+```bash
 git clone https://github.com/jhonileon-alves/DownX.git
 cd DownX
-Instale as dependências:
+```
 
-bash
-Copy code
+2. Instale as dependências:
+
+```bash
 pip install -r requirements.txt
-Execute o aplicativo:
+```
 
-bash
-Copy code
+3. Execute o aplicativo:
+
+```bash
 python main.py
-🚀 Uso
-Clique em Escolher pasta e selecione a pasta de destino
+```
 
-Insira a URL do vídeo do YouTube
+---
 
-Clique em Download
+## Uso
 
-Acompanhe o status do download na barra inferior
+1. Clique em **Escolher pasta** e selecione o destino dos vídeos
+2. Insira a URL do vídeo do YouTube
+3. Clique em **Download**
+4. Acompanhe o status do download na barra inferior
 
 Mensagens de erro serão exibidas caso a URL esteja incorreta ou nenhuma pasta tenha sido selecionada.
 
-📂 Estrutura do projeto
-bash
-Copy code
+---
+
+## Estrutura do projeto
+
+```
 DownX/
 │
 ├─ main.py             # Código principal
 ├─ downx.ico           # Ícone do aplicativo
 ├─ requirements.txt    # Dependências do projeto
 ├─ README.md           # Documentação
-└─ assets/             # Screenshots e GIFs de demonstração
-    ├─ screenshot.png
-    └─ demo.gif
-💡 Dicas Extras
-Criar executável Windows (.exe):
+└─ assets/             # Screenshots do app
+    └─ screenshot.png
+```
 
-bash
-Copy code
+---
+
+## Dicas Extras
+
+* Criar **executável Windows (.exe)**:
+
+```bash
 pip install pyinstaller
 pyinstaller --onefile --windowed --icon=downx.ico main.py
-Personalizar interface:
+```
 
-python
-Copy code
+* Personalizar interface:
+
+```python
 set_appearance_mode("dark")        # dark / light / system
 set_default_color_theme("blue")    # blue, green, dark-blue, etc.
-🤝 Contribuição
+```
+
+* Barra de status exibe mensagens em tempo real, permitindo acompanhar o progresso do download.
+
+---
+
+## Contribuição
+
 Contribuições são bem-vindas!
 
-Fork o repositório
+1. Fork o repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas alterações (`git commit -m "Descrição da alteração"`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request no repositório original
 
-Crie uma branch para sua feature (git checkout -b feature/nova-funcionalidade)
+---
 
-Commit suas alterações (git commit -m "Descrição da alteração")
+## Licença
 
-Push para a branch (git push origin feature/nova-funcionalidade)
-
-Abra um Pull Request no repositório original
-
-📜 Licença
 Uso pessoal e educacional. Respeite direitos autorais ao baixar conteúdos da internet.
 
-👨‍💻 Autor
-Jhoni Leon
+---
 
-GitHub: https://github.com/jhonileon-alves
+## Autor
 
-Email: jhoni.leon.alves@gmail.com
+**Jhoni Leon**
 
-DownX foi desenvolvido com foco em experiência do usuário, simplicidade e aprendizado em Python.
-Qualquer uso comercial deve seguir as regras de direitos autorais do YouTube e demais conteúdos online.
+* GitHub: [https://github.com/jhonileon-alves](https://github.com/jhonileon-alves)
+* Email: [jhoni.leon.alves@gmail.com](mailto:jhoni.leon.alves@gmail.com)
+
+> DownX foi desenvolvido com foco em **experiência do usuário, simplicidade e aprendizado em Python**.
+> Qualquer uso comercial deve seguir as regras de direitos autorais do YouTube e demais conteúdos online.
+
+```
